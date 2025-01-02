@@ -1,0 +1,9 @@
+"workshopitem"
+{
+	"appid"		        "2881650"
+	"publishedfileid"	"3398296143"
+	"contentfolder"		"C:\\Users\\Bradlee Barnacles\\RiderProjects\\Steampunch\\scmdrelease"
+	"previewfile"		"C:\\Users\\Bradlee Barnacles\\RiderProjects\\Steampunch\\preview.png"
+	"visibility"		"0"
+	"changenote"		"Update to the thingle"
+}
