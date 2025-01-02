@@ -10,8 +10,12 @@ public class SteampunchPluginBehaviour : MonoBehaviour
 	
 	private void Start()
 	{
-		SteamClient.Init(2881650, false);
-		StartCoroutine(DoSteamCallbacksWhenInit());
+		try {
+			SteamClient.Init(2881650, false);
+			StartCoroutine(DoSteamCallbacksWhenInit());
+		} catch (System.Exception e) {
+			Debug.LogError("Uh oh! Failed to initialize Steamworks: " + e);
+		}
 	}
 	
 	private IEnumerator DoSteamCallbacksWhenInit()

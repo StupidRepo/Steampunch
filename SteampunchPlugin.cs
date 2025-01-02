@@ -6,11 +6,6 @@ using UnityEngine;
 using Zorro.Settings;
 using Object = UnityEngine.Object;
 
-// ExampleCWPlugin is mostly an example of how to use the modding API, not an actual serious mod.
-// It adds a setting to the Mods settings page, which is a slider from 0 to 100.
-// It then edits the Flashlight.Update method to prevent the battery of the flashlight
-// from falling below that setting value.
-
 namespace Steampunch
 {
     [ContentWarningPlugin("stupidrepo.Steampunch", "0.1", true)]
